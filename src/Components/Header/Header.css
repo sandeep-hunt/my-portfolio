@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    color: var(--black);
+    padding: 0 3rem;
+}
+
+.navbar-left {
+    align-items: center;
+    display: flex;
+    flex: 1 1;
+    gap: 2rem;
+}
+
+.navbar-right {
+    align-items: center;
+    display: flex;
+    flex: 1 1;
+    justify-content: right;
+}
+
+.navbar-right .navbar-nav {
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+}

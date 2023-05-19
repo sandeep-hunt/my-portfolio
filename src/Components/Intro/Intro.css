@@ -1,0 +1,11 @@
+.intro {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    height: auto;
+}
+
+.intro-left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

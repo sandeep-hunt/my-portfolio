@@ -1,4 +1,5 @@
-:root {
+:root
+{
   --white: #FFFFFF;
   --black: #000000;
   --blue: #1A3873;
@@ -6,9 +7,42 @@
   --purple: #8B6BE1;
   --link: #FF8C28;
   --text-paragraph: #7A7A7A;
-
 }
 
-.App {
-  color: var(--black);
+.App{
+    overflow: hidden;
+    color: var(--black);    
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.btn {
+  width: auto;
+  padding: 0.5rem 1.5rem;
+}
+
+.btn-outline-primary {
+  background: none;
+  border: 2px solid var(--button);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-outline-primary:hover {
+  background: var(--blue);
+  color: var(--white);
+}
+
+.container {
+  padding: 0 3rem;
+  width: 100%;
+  display: flex;
 }
