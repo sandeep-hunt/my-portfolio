@@ -1,12 +1,12 @@
 import React from 'react'
 import './Header.css'
+import s_icon from '../../img/s logo.png';
 
 const Header = () => {
   return (
     <nav className="navbar">
       <div className="navbar-left">
-          AJ Studio
-          {/* <img src="https://www.tatanexarc.com/nexarc/static/appcode/images/header-footer/nexarc-logo.svg" alt="" /> */}
+          <img src={s_icon} className='navbar-brand' alt="" /><span className='navbar-brand-text'>andeep</span>
       </div>
       <div className="navbar-right">
           <ul className="navbar-nav">
@@ -15,7 +15,7 @@ const Header = () => {
               <li className="nav-item">Services</li>
               <li className="nav-item">Portfolio</li>
           </ul>
-          <button className='btn btn-outline-primary' type='button'>Login</button>
+          <button className='btn btn-outline-primary' type='button'>Download CV</button>
       </div>
     </nav>
   )

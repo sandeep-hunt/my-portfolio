@@ -1,11 +1,52 @@
 .intro {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 5vh;
     height: auto;
 }
 
-.intro-left {
+.intro-container {
     display: flex;
-    justify-content: center;
+    padding: 0 3rem;
+}
+
+.intro-left {
+    flex: 50%;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+}
+
+.intro-title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.intro-tagline {
+    font-size: 16px;
+    color: var(--text-paragraph);
+    line-height: 1.5;
+    margin-top: -1rem;
+    letter-spacing: 1px;
+}
+
+.intro-buttons {
+    margin: 1rem 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.intro-icons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.intro-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 50%;
+}
+
+.intro-profile {
+    width: 450px;
 }
