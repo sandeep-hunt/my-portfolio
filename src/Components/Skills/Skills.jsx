@@ -1,23 +1,38 @@
 import React from 'react'
 import './Skills.css'
-import Profile1 from '../../img/profile1.png';
 
 const Skills = () => {
   return (
     <div className="skills">
-        <div className="skills-container">
-            <div className="skills-left">
-                <img src={Profile1} className='img-fluid skills-profile' alt="" />
+      <div className="skills-container">
+        <h2 className='s-title'>Skills</h2>
+        <div className="skills-wrapper">
+          <div className="skills-card">
+            <div className="skills-card-head">
+              <h2 className="skills-card-title">Frontend</h2>
             </div>
-            <div className="skills-right">
-                <h2 className='skills-title'>About Me</h2>
-                <p className='skills-text'>I'm a very ambitious front-end developer looking for a role in an established IT company with the opportunity to work with the latest technologies on challenging and diverse projects. I'm quietly confident, naturally curious, and perpetually working on improving my</p>
-                <span>Skills: HTML, CSS, JavaScript, Bootstrap,  ReactJS</span>
-                <div className="skills-button">
-                    <button className='btn btn-outline-primary'>Download CV</button>
-                </div>
+            <div className="skills-card-body">
+              <span>HTML, CSS, JavaScript, Bootstrap, React, Redux, NPM, Git, Postman</span>
             </div>
+          </div>
+          <div className="skills-card">
+            <div className="skills-card-head">
+              <h2 className="skills-card-title">Backend</h2>
+            </div>
+            <div className="skills-card-body">
+              <span>NodeJS, MongoDB, Git, Postman</span>
+            </div>
+          </div>
+          <div className="skills-card">
+            <div className="skills-card-head">
+              <h2 className="skills-card-title">Database</h2>
+            </div>
+            <div className="skills-card-body">
+              <span>PostgreSql, MYSQL</span>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
   )
 }

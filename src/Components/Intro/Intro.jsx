@@ -9,7 +9,7 @@ const Intro = () => {
     <div className="intro">
       <div className="intro-container">
         <div className="intro-left">
-          <h1 className='intro-title'>Hy! I Am Sandeep</h1>
+          <h1 className='intro-title'>Hy! I Am <span>Sandeep</span></h1>
           <p className='intro-tagline'>I'm a Web Developer based in India. Proficient in web development. I enjoy turning complex problems into simple, beautiful and intuitive solutions.</p>
           <div className="intro-buttons">
             <button className='btn btn-primary'>Hire Me</button>
