@@ -6,4 +6,5 @@
 
 .projects-container {
     padding: 0 3rem;
+    display: flex;
 }
