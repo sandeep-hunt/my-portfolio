@@ -1,12 +1,12 @@
 import React from 'react'
 import './Header.css'
-import s_icon from '../../img/s logo.png';
+import icon from '../../img/logo.png';
 
 const Header = () => {
   return (
     <nav className="navbar">
       <div className="navbar-left">
-          <img src={s_icon} className='navbar-brand' alt="" /><span className='navbar-brand-text'>andeep</span>
+          <img src={icon} className='navbar-brand' alt="" /><span className='navbar-brand-text'>andeep</span>
       </div>
       <div className="navbar-right">
           <ul className="navbar-nav">
