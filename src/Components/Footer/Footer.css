@@ -1,0 +1,20 @@
+footer {
+    padding: 2rem 0;
+    height: auto;
+}
+
+.footer-container {
+    padding: 0 3rem;
+}
+
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-wrapper .footer-icons {
+    display: flex;
+    gap: 1rem;
+}
