@@ -71,3 +71,16 @@
 .projects-content .swiper-pagination-bullet-active {
     background: var(--link) !important;
 }
+
+@media (max-width: 768px) {
+    .projects-container {
+        padding: 0 2rem;
+    }
+    .slider-wrapper {
+        flex-direction: column-reverse;
+        margin-top: 1rem;
+    }
+    .swiper-pagination {
+        display: none !important;
+    }
+}

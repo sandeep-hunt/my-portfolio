@@ -55,3 +55,15 @@
     color: var(--text-paragraph);
     line-height: 1.5;
 }
+
+@media (max-width: 768px) {
+    .skills {
+        margin-top: 1.5rem;
+    }
+    .skills-container {
+        padding: 0 2rem;
+    }
+    .skills-wrapper {
+        flex-direction: column;
+    }
+}

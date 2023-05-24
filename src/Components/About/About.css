@@ -49,3 +49,27 @@
 .about-button {
     margin-top: 2.5rem;
 }
+
+@media (max-width: 768px) {
+    .about {
+        margin-top: 2rem;
+    }
+
+    .about-container {
+        flex-direction: column-reverse;
+        padding: 0 2rem;
+    }
+
+    .about-profile {
+        width: 968px;
+        height: 316px;
+    }
+
+    .about-left {
+        margin-top: 3rem;
+    }
+
+    .about-right {
+        padding: 0;
+    }
+}
