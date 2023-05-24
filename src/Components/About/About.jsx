@@ -4,7 +4,7 @@ import Profile1 from '../../img/profile1.png';
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id='about'>
         <div className="about-container">
             <div className="about-left">
                 <img src={Profile1} className='img-fluid about-profile' alt="" />

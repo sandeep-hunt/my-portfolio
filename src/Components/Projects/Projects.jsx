@@ -11,7 +11,7 @@ import project3 from '../../img/projects/3.png';
 
 const Projects = () => {
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <div className="projects-container">
         <div className="projects-header">
           <span className='projects-header-tag'>Some Things I've Built</span>

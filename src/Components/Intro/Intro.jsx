@@ -6,7 +6,7 @@ import Linkedin from '@iconscout/react-unicons/icons/uil-linkedin'
 
 const Intro = () => {
   return (
-    <div className="intro">
+    <div className="intro" id='into'>
       <div className="intro-container">
         <div className="intro-left">
           <h1 className='intro-title'>Hy! I Am <span>Sandeep</span></h1>

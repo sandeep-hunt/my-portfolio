@@ -9,11 +9,11 @@ const Footer = () => {
         <div className="footer-container">
             <div className="footer-wrapper">
                 <div className="footer-icons">
-                    <Github color='black' size='2.5rem' />
-                    <Linkedin color='black' size='2.5rem' />
+                    <Github color='black' size='2rem' />
+                    <Linkedin color='black' size='2rem' />
                 </div>
                 <div className="footer-copyright">
-                    <p>© Copyright 2023 Tim Baker</p>
+                    <p>© Copyright 2023 All Rights Reserved</p>
                 </div>
             </div>
         </div>

@@ -1,6 +1,7 @@
 footer {
     padding: 2rem 0;
     height: auto;
+    border-top: 3px solid #ECEEF4;
 }
 
 .footer-container {
